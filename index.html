@@ -1,0 +1,573 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Rachchanon Dechyothin - Front-end Web Developer</title>
+
+  <!-- Use the minified version files listed below for better performance and remove the files listed above -->
+  <link rel="stylesheet" href="assets/css/vendor/vendor.min.css">
+  <link rel="stylesheet" href="assets/css/plugins/plugins.min.css">
+  <link rel="stylesheet" href="assets/css/style.min.css">
+  <link rel="stylesheet" href="assets/css/hack.css">
+
+</head>
+
+<body>
+  <div id="preloader">
+    <div class="preloader">
+      <div class="spinner-border text-primary"></div>
+    </div>
+  </div>
+
+  <!-- Header Area Start Here -->
+  <header class="main-header-area header-transparent header-sticky">
+    <!-- Main Header Area Start -->
+    <div class="main-header">
+      <div class="container">
+        <div class="row align-items-center">
+          <div class="col-lg-2 col-xl-2 col-md-6 col-6">
+            <div class="header-logo d-flex align-items-center">
+              <a href="index.html">
+                <img class="nonsticky-logo img-full" src="assets/images/logo/logo.png" alt="Header Logo">
+                <img class="sticky-logo img-full" src="assets/images/logo/white-logo.png" alt="Header Logo">
+              </a>
+            </div>
+          </div>
+          <div class="col-lg-10 col-md-6 col-6 d-flex justify-content-end">
+            <nav class="main-nav d-none d-lg-flex">
+              <ul class="nav">
+                <li>
+                  <a class="active" href="#">
+                    <span class="menu-text"> HOME</span>
+                    <i class="fa fa-angle-down"></i>
+                  </a>
+                  <ul class="dropdown-submenu dropdown-hover">
+                    <li><a href="#">SAMPLE One</a></li>
+                    <li><a href="#">SAMPLE Two</a></li>
+                  </ul>
+                </li>
+                <li>
+                  <a href="#">
+                    <span class="menu-text"> ABOUT US</span>
+                    <i class="fa fa-angle-down"></i>
+                  </a>
+                  <ul class="dropdown-submenu dropdown-hover">
+                    <li><a href="#">SAMPLE One</a></li>
+                    <li><a href="#">SAMPLE Two</a></li>
+                  </ul>
+                </li>
+                <li>
+                  <a href="#">
+                    <span class="menu-text"> NEWS</span>
+                    <i class="fa fa-angle-down"></i>
+                  </a>
+                  <ul class="dropdown-submenu dropdown-hover">
+                    <li><a href="#">SAMPLE One</a></li>
+                    <li><a href="#">SAMPLE Two</a></li>
+                  </ul>
+                </li>
+                <li>
+                  <a href="#">
+                    <span class="menu-text"> CONTACT US</span>
+                    <i class="fa fa-angle-down"></i>
+                  </a>
+                  <ul class="dropdown-submenu dropdown-hover">
+                    <li><a href="#">SAMPLE One</a></li>
+                    <li><a href="#">SAMPLE Two</a></li>
+                  </ul>
+                </li>
+              </ul>
+            </nav>
+            <div class="header-right-area main-nav d-lg-none">
+              <ul class="nav">
+                <li class="account-menu-wrap d-none d-lg-flex">
+                  <a href="#" class="off-canvas-menu-btn">
+                    <i class="fa fa-bars"></i>
+                  </a>
+                </li>
+                <li class="mobile-menu-btn d-block d-lg-none">
+                  <a class="off-canvas-btn" href="#">
+                    <i class="fa fa-bars"></i>
+                  </a>
+                </li>
+              </ul>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <!-- Main Header Area End -->
+    <!-- off-canvas mobile menu start -->
+    <aside class="off-canvas-wrapper" id="mobileMenu">
+      <div class="off-canvas-overlay"></div>
+      <div class="off-canvas-inner-content">
+        <div class="btn-close-off-canvas">
+          <i class="fa fa-times"></i>
+        </div>
+        <div class="off-canvas-inner">
+          <div class="offcanvas-widget-area">
+            <!-- mobile menu start -->
+            <div class="mobile-navigation">
+              <!-- mobile menu navigation start -->
+              <nav>
+                <ul class="mobile-menu">
+                  <li class="menu-item-has-children"><a href="#">HOME</a>
+                    <ul class="dropdown">
+                      <li><a href="#">SAMPLE ONE</a></li>
+                      <li><a href="#">AMPLE TWO</a></li>
+                    </ul>
+                  </li>
+                  <li class="menu-item-has-children"><a href="#">ABOUT US</a>
+                    <ul class="dropdown">
+                      <li><a href="#">SAMPLE ONE</a></li>
+                      <li><a href="#">AMPLE TWO</a></li>
+                    </ul>
+                  </li>
+                  <li class="menu-item-has-children"><a href="#">NEWS</a>
+                    <ul class="dropdown">
+                      <li><a href="#">SAMPLE ONE</a></li>
+                      <li><a href="#">AMPLE TWO</a></li>
+                    </ul>
+                  </li>
+                  <li class="menu-item-has-children"><a href="#">CONTACT US</a>
+                    <ul class="dropdown">
+                      <li><a href="#">SAMPLE ONE</a></li>
+                      <li><a href="#">AMPLE TWO</a></li>
+                    </ul>
+                  </li>
+                </ul>
+              </nav>
+              <!-- mobile menu navigation end -->
+            </div>
+            <!-- mobile menu end -->
+          </div>
+        </div>
+      </div>
+    </aside>
+    <!-- off-canvas menu end -->
+    <!-- Offcanvas Serach Start -->
+    <aside class="off-canvas-search-wrapper">
+      <div class="off-canvas-overlay"></div>
+      <div class="off-canvas-inner-content">
+        <div class="off-canvas-inner">
+          <form action="#" method="post">
+            <input type="search" placeholder="Search..">
+            <button class="search-btn"><i class="fa fa-search"></i></button>
+          </form>
+        </div>
+      </div>
+    </aside>
+    <!-- Offcanvas Search End -->
+
+  </header>
+  <!-- Header Area End Here -->
+  <!-- Slider/Intro Section Start -->
+  <div class="intro11-slider-wrap section">
+    <div class="intro11-slider swiper-container">
+      <div class="swiper-wrapper">
+        <div class="single-slide-wrapper swiper-slide slide-1 slide-bg-1 bg-position">
+          <!-- Intro Content Start -->
+          <div class="slider-content text-center">
+            <h2 class="title" data-splitting>DEVELOPMENT</h2>
+            <h4 class="sub-title">We are web developer</h4>
+            <a href="#" class="btn btn-outline-light btn-lg d-none d-lg-inline">READ MORE</a>
+            <a href="#" class="btn btn-lg btn-light btn-hover-primary">LEARN MORE</a>
+          </div>
+          <!-- Intro Content End -->
+        </div>
+        <div class="single-slide-wrapper swiper-slide slide-2 slide-bg-1 bg-position">
+          <!-- Intro Content Start -->
+          <div class="slider-content text-center">
+            <h2 class="title" data-splitting>Best Solutions</h2>
+            <h4 class="sub-title">Starting any business takes a huge leap of faith. You’re jumping off of a mountain and
+              hoping your parachute will open and lead you and your business to success.</h4>
+            <a href="#" class="btn btn-outline-light btn-lg">Discover More</a>
+          </div>
+          <!-- Intro Content End -->
+        </div>
+      </div>
+      <!-- Slider Navigation -->
+      <div class="home1-slider-prev swiper-button-prev main-slider-nav"><i class="fa fa-long-arrow-left"></i></div>
+      <div class="home1-slider-next swiper-button-next main-slider-nav"><i class="fa fa-long-arrow-right"></i></div>
+      <!-- Slider pagination -->
+      <div class="swiper-pagination"></div>
+    </div>
+  </div>
+  <!-- Slider/Intro Section End -->
+
+  <!-- Service Section Start Here -->
+  <div class="service-section" style="padding:120px 0" id="ourservice">
+    <div class="container">
+      <div class="row text-center mb-10">
+        <div class="section-title" data-aos="fade-up" data-aos-delay="100">
+          <h4 class="title title-x">SERVICES</h4>
+        </div>
+      </div>
+      <div class="row mb-n10">
+        <div class="col-lg-4 col-md-6 mb-10">
+          <div class="single-service-wrapper" data-aos="fade-up" data-aos-delay="100">
+            <div class="service-icon">
+              <img src="assets/images/icon/icn-design.png" alt="WEB DESIGN">
+            </div>
+            <div class="service-content">
+              <h4 class="title">WEB DESIGN</h4>
+              <p class="desc-content">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aenean eu ornare ante.
+                Proin aliquam odio id lorem finibus, a ullamcorper arcu posuere.</p>
+            </div>
+          </div>
+        </div>
+        <div class="col-lg-4 col-md-6 mb-10">
+          <div class="single-service-wrapper" data-aos="fade-up" data-aos-delay="300">
+            <div class="service-icon">
+              <img src="assets/images/icon/icn-develop.png" alt="PHOTOGRAPHY">
+            </div>
+            <div class="service-content">
+              <h4 class="title">PHOTOGRAPHY</h4>
+              <p class="desc-content">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aenean eu ornare ante.
+                Proin aliquam odio id lorem finibus, a ullamcorper arcu posuere.</p>
+            </div>
+          </div>
+        </div>
+        <div class="col-lg-4 col-md-6 mb-10">
+          <div class="single-service-wrapper" data-aos="fade-up" data-aos-delay="600">
+            <div class="service-icon">
+              <img src="assets/images/icon/icn-brand.png" alt="UI DESIGN">
+            </div>
+            <div class="service-content">
+              <h4 class="title">BRANDING</h4>
+              <p class="desc-content">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aenean eu ornare ante.
+                Proin aliquam odio id lorem finibus, a ullamcorper arcu posuere.</p>
+            </div>
+          </div>
+        </div>
+        <div class="col-lg-4 col-md-6 mb-10">
+          <div class="single-service-wrapper" data-aos="fade-up" data-aos-delay="100">
+            <div class="service-icon">
+              <img src="assets/images/icon/icn-design.png" alt="PHOTOGRAPHY">
+            </div>
+            <div class="service-content">
+              <h4 class="title">PHOTOGRAPHY</h4>
+              <p class="desc-content">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aenean eu ornare ante.
+                Proin aliquam odio id lorem finibus, a ullamcorper arcu posuere.</p>
+            </div>
+          </div>
+        </div>
+        <div class="col-lg-4 col-md-6 mb-10">
+          <div class="single-service-wrapper" data-aos="fade-up" data-aos-delay="300">
+            <div class="service-icon">
+              <img src="assets/images/icon/icn-develop.png" alt="PHOTOGRAPHY">
+            </div>
+            <div class="service-content">
+              <h4 class="title">TYPOGRAPHY</h4>
+              <p class="desc-content">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aenean eu ornare ante.
+                Proin aliquam odio id lorem finibus, a ullamcorper arcu posuere.</p>
+            </div>
+          </div>
+        </div>
+        <div class="col-lg-4 col-md-6 mb-10">
+          <div class="single-service-wrapper" data-aos="fade-up" data-aos-delay="600">
+            <div class="service-icon">
+              <img src="assets/images/icon/icn-brand.png" alt="UI DESIGN">
+            </div>
+            <div class="service-content">
+              <h4 class="title">UI DESIGN</h4>
+              <p class="desc-content">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aenean eu ornare ante.
+                Proin aliquam odio id lorem finibus, a ullamcorper arcu posuere.</p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+  <!-- Service Section End Here -->
+  <!-- Funfact Section Start Here -->
+  <div class="funfact-section d-flex flex-column justify-content-center">
+    <div class="container p-0">
+      <div class="row no-gutters counters align-items-center">
+        <div class="col-lg-3 col-6">
+          <div class="single-fun-fact-wrap" data-aos="fade-up" data-aos-delay="100">
+            <div class="counter-area">
+              <span class="counter">1054</span>
+            </div>
+            <div class="counter-content">
+              <h3 class="title">CLIENTS</h3>
+            </div>
+          </div>
+        </div>
+        <div class="col-lg-3 col-6 item">
+          <div class="single-fun-fact-wrap" data-aos="fade-up" data-aos-delay="300">
+            <div class="counter-area">
+              <span class="counter">154</span>
+            </div>
+            <div class="counter-content">
+              <h3 class="title">PROJECT</h3>
+            </div>
+          </div>
+        </div>
+        <div class="col-lg-3 col-6">
+          <div class="single-fun-fact-wrap" data-aos="fade-up" data-aos-delay="600">
+            <div class="counter-area">
+              <span class="counter">59</span>
+            </div>
+            <div class="counter-content">
+              <h3 class="title">AWARDS</h3>
+            </div>
+          </div>
+        </div>
+        <div class="col-lg-3 col-6">
+          <div class="single-fun-fact-wrap" data-aos="fade-up" data-aos-delay="900">
+            <div class="counter-area">
+              <span class="counter">34</span>
+            </div>
+            <div class="counter-content">
+              <h3 class="title">TEAM</h3>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+  <!-- Funfact Section End Here -->
+  <!-- Portfolio Section Start Here -->
+  <div class="portfolio-section" style="padding:120px 0 0 0">
+    <div class="container-fluid">
+      <div class="row">
+        <div class="section-title text-center" data-aos="fade-up" data-aos-delay="100">
+          <h4 class="title title-x">GREAT WORK</h4>
+        </div>
+      </div>
+      <div class="row" style="margin-top:40px">
+        <!-- Portfolio Menu Start -->
+        <div class="messonry-button text-center mb-6" data-aos="fade-up">
+          <button data-filter="*" class="is-checked port-filter">All</button>
+          <button data-filter=".cat-1" class="port-filter">App</button>
+          <button data-filter=".cat-2" class="port-filter">BRANDING</button>
+          <button data-filter=".cat-3" class="port-filter">DESIGN</button>
+          <button data-filter=".cat-4" class="port-filter">PHOTO</button>
+          <button data-filter=".cat-5" class="port-filter">COFFEE</button>
+        </div>
+        <!-- Portfolio Menu End -->
+      </div>
+      <div class="row row-cols-lg-4 row-cols-md-2 row-cols-sm-2 row-cols-1 mesonry-list" data-aos="fade-up"
+        data-aos-delay="100">
+        <div class="resizer col"></div>
+        <!-- Single Portfolio Start -->
+        <div class="col cat-1 cat-3 cat-4 g-0">
+          <div class="single-portfolio-wrap">
+            <figure class="portfolio-thumb hover-style position-relative m-0">
+              <a href="portfolio-details.html">
+                <img src="assets/images/portfolio/01.jpg" alt="Portfolio Image">
+                <div class="overlay-1"></div>
+              </a>
+              <figcaption class="portfolio-details">
+                <div class="port-info">
+                  <h3 class="title"><a href="portfolio-details.html">Company Typeface</a></h3>
+                  <nav class="nav portfolio-cate">
+                    <a href="portfolio-details.html">Design</a>
+                    <span>&nbsp;/&nbsp;</span>
+                    <a href="portfolio-details.html">Photography</a>
+                  </nav>
+                </div>
+              </figcaption>
+            </figure>
+          </div>
+        </div>
+        <!-- Single Portfolio End -->
+        <!-- Single Portfolio Start -->
+        <div class="col cat-2 cat-5 g-0">
+          <div class="single-portfolio-wrap">
+            <figure class="portfolio-thumb hover-style position-relative m-0">
+              <a href="portfolio-details.html">
+                <img src="assets/images/portfolio/02.jpg" alt="Portfolio Image">
+                <div class="overlay-1"></div>
+              </a>
+              <figcaption class="portfolio-details">
+                <div class="port-info">
+                  <h3 class="title"><a href="portfolio-details.html">Nature Vibes</a></h3>
+                  <nav class="nav portfolio-cate">
+                    <a href="portfolio-details.html">Design</a>
+                    <span>&nbsp;/&nbsp;</span>
+                    <a href="portfolio-details.html">Photography</a>
+                  </nav>
+                </div>
+              </figcaption>
+            </figure>
+          </div>
+        </div>
+        <!-- Single Portfolio End -->
+        <!-- Single Portfolio Start -->
+        <div class="col cat-3 cat-2 g-0">
+          <div class="single-portfolio-wrap">
+            <figure class="portfolio-thumb hover-style position-relative m-0">
+              <a href="portfolio-details.html">
+                <img src="assets/images/portfolio/03.jpg" alt="Portfolio Image">
+                <div class="overlay-1"></div>
+              </a>
+              <figcaption class="portfolio-details">
+                <div class="port-info">
+                  <h3 class="title"><a href="portfolio-details.html">Typography Design</a></h3>
+                  <nav class="nav portfolio-cate">
+                    <a href="portfolio-details.html">Design</a>
+                    <span>&nbsp;/&nbsp;</span>
+                    <a href="portfolio-details.html">Photography</a>
+                  </nav>
+                </div>
+              </figcaption>
+            </figure>
+          </div>
+        </div>
+        <!-- Single Portfolio End -->
+        <!-- Single Portfolio Start -->
+        <div class="col cat-4 cat-5 cat-3 g-0">
+          <div class="single-portfolio-wrap">
+            <figure class="portfolio-thumb hover-style position-relative m-0">
+              <a href="portfolio-details.html">
+                <img src="assets/images/portfolio/04.jpg" alt="Portfolio Image">
+                <div class="overlay-1"></div>
+              </a>
+              <figcaption class="portfolio-details">
+                <div class="port-info">
+                  <h3 class="title"><a href="portfolio-details.html">Deliver Result</a></h3>
+                  <nav class="nav portfolio-cate">
+                    <a href="portfolio-details.html">Design</a>
+                    <span>&nbsp;/&nbsp;</span>
+                    <a href="portfolio-details.html">Photography</a>
+                  </nav>
+                </div>
+              </figcaption>
+            </figure>
+          </div>
+        </div>
+        <!-- Single Portfolio End -->
+        <!-- Single Portfolio Start -->
+        <div class="col cat-5 cat-1 g-0">
+          <div class="single-portfolio-wrap">
+            <figure class="portfolio-thumb hover-style position-relative m-0">
+              <a href="portfolio-details.html">
+                <img src="assets/images/portfolio/05.jpg" alt="Portfolio Image">
+                <div class="overlay-1"></div>
+              </a>
+              <figcaption class="portfolio-details">
+                <div class="port-info">
+                  <h3 class="title"><a href="portfolio-details.html">Truly Creative</a></h3>
+                  <nav class="nav portfolio-cate">
+                    <a href="portfolio-details.html">Design</a>
+                    <span>&nbsp;/&nbsp;</span>
+                    <a href="portfolio-details.html">Photography</a>
+                  </nav>
+                </div>
+              </figcaption>
+            </figure>
+          </div>
+        </div>
+        <!-- Single Portfolio End -->
+        <!-- Single Portfolio Start -->
+        <div class="col cat-2 cat-1 cat-4 g-0">
+          <div class="single-portfolio-wrap">
+            <figure class="portfolio-thumb hover-style position-relative m-0">
+              <a href="portfolio-details.html">
+                <img src="assets/images/portfolio/06.jpg" alt="Portfolio Image">
+                <div class="overlay-1"></div>
+              </a>
+              <figcaption class="portfolio-details">
+                <div class="port-info">
+                  <h3 class="title"><a href="portfolio-details.html">Best of the web</a></h3>
+                  <nav class="nav portfolio-cate">
+                    <a href="portfolio-details.html">Design</a>
+                    <span>&nbsp;/&nbsp;</span>
+                    <a href="portfolio-details.html">Photography</a>
+                  </nav>
+                </div>
+              </figcaption>
+            </figure>
+          </div>
+        </div>
+        <!-- Single Portfolio End -->
+        <!-- Single Portfolio Start -->
+        <div class="col cat-1 cat-2 cat-3 g-0">
+          <div class="single-portfolio-wrap">
+            <figure class="portfolio-thumb hover-style position-relative m-0">
+              <a href="portfolio-details.html">
+                <img src="assets/images/portfolio/07.jpg" alt="Portfolio Image">
+                <div class="overlay-1"></div>
+              </a>
+              <figcaption class="portfolio-details">
+                <div class="port-info">
+                  <h3 class="title"><a href="portfolio-details.html">Best of the web</a></h3>
+                  <nav class="nav portfolio-cate">
+                    <a href="portfolio-details.html">Design</a>
+                    <span>&nbsp;/&nbsp;</span>
+                    <a href="portfolio-details.html">Photography</a>
+                  </nav>
+                </div>
+              </figcaption>
+            </figure>
+          </div>
+        </div>
+        <!-- Single Portfolio End -->
+        <!-- Single Portfolio Start -->
+        <div class="col cat-4 cat-5 g-0">
+          <div class="single-portfolio-wrap">
+            <figure class="portfolio-thumb hover-style position-relative m-0">
+              <a href="portfolio-details.html">
+                <img src="assets/images/portfolio/08.jpg" alt="Portfolio Image">
+                <div class="overlay-1"></div>
+              </a>
+              <figcaption class="portfolio-details">
+                <div class="port-info">
+                  <h3 class="title"><a href="portfolio-details.html">Best of the web</a></h3>
+                  <nav class="nav portfolio-cate">
+                    <a href="portfolio-details.html">Design</a>
+                    <span>&nbsp;/&nbsp;</span>
+                    <a href="portfolio-details.html">Photography</a>
+                  </nav>
+                </div>
+              </figcaption>
+            </figure>
+          </div>
+        </div>
+        <!-- Single Portfolio End -->
+      </div>
+    </div>
+  </div>
+  <!-- Portfolio Section End Here -->
+
+  <!-- Footer Section Start Here -->
+  <footer class="footer-section" style="background-color: #f7f7f7; padding-top: 70px">
+    <div class="footer-copyright-area" style="margin-bottom: 70px">
+      <div class="container custom-area">
+        <div class="row">
+          <div class="col-12 text-center col-custom">
+            <div class="copyright-content">
+              <p class="mb-0" style="display: inline;">© 2020</p><img src="assets/images/logo/footer-logo.png"
+                style="display: inline; margin:0 6px">
+              <p style="display: inline;">All Rights Reserved.</p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </footer>
+  <!-- Footer Section End Here -->
+
+
+
+  <!-- Scroll Top Start Here -->
+  <a href="#" class="scroll-top" id="scroll-top">
+    <i class="arrow-top fa fa-angle-double-up"></i>
+    <i class="arrow-bottom fa fa-angle-double-up"></i>
+  </a>
+  <!-- Scroll Top End Here -->
+
+
+  <!-- Use the minified version files listed below for better performance and remove the files listed above -->
+  <script src="assets/js/vendor/vendor.min.js"></script>
+  <script src="assets/js/plugins/plugins.min.js"></script>
+
+  <!--Main JS-->
+  <script src="assets/js/main.js"></script>
+</body>
+
+</html>

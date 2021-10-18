@@ -1,0 +1,144 @@
+.bg-video .video-bg-content .title {
+  font-size: 1.9rem;
+  font-weight: 600;
+  margin-bottom: 22px;
+  margin-top: 32%;
+}
+
+.intro11-slider .slider-content .title {
+  /* font-size: 80px; */
+  font-size: 4rem;
+  font-weight: 500;
+  margin-top: 32%;
+  margin-bottom: 22px;
+  color: #FFF;
+  text-transform: uppercase;
+}
+
+@media (max-width: 1199px) {
+  .intro11-slider .slider-content .title {
+    font-size: 60px;
+  }
+}
+
+@media (max-width: 767px) {
+  .intro11-slider .slider-content .title {
+    font-size: 40px;
+  }
+}
+
+@media (max-width: 575px) {
+  .intro11-slider .slider-content .title {
+    font-size: 30px;
+  }
+}
+
+.btn-lg, .btn-group-lg > .btn {
+  padding: 12px 27px;
+  border-radius: 2px;
+  margin: 0 4px;
+}
+
+.main-nav > ul > li > a {
+  font-weight: 500;
+}
+
+h1, .h1, h2, .h2, h3, .h3, h4, .h4, h5, .h5, h6, .h6 {
+  font-weight: 400;
+}
+
+.single-service-wrapper .service-icon {
+  background-color: #FFFFFF;
+}
+
+.single-service-wrapper .service-icon::before {
+  background-color: #FFFFFF;
+}
+
+.counter-area span {
+  line-height: 85px;
+}
+
+.funfact-section {
+  min-height: 250px;
+}
+
+.single-service-wrapper .service-icon {
+  margin: 0 auto 5px;
+}
+
+body {
+  color: #888888;
+}
+
+.title {
+  color: #323232;
+}
+
+.bg-video .video-area::before {
+  background-color: rgba(18, 18, 18, 0.09);
+}
+
+.messonry-button .port-filter, .single-service-wrapper .service-icon {
+  background-color: transparent;
+}
+
+.messonry-button .port-filter.is-checked {
+  color: #e7b14e;
+}
+
+.messonry-button .port-filter::before {
+  background-color: transparent;
+}
+
+.btn-hover-primary:hover {
+  border-color: #e7b14e;
+  background-color: #e7b14e;
+}
+
+.dropdown-submenu {
+  border-color: #e7b14e;
+}
+
+.dropdown-submenu > li > a:hover {
+  color: #e7b14e;
+}
+
+.dropdown-submenu > li > a::before {
+  background-color: #e7b14e;
+}
+
+.text-primary {
+  color: #e7b14e !important;
+}
+
+.messonry-button .port-filter {
+  margin: 0 50px 10px 0;
+}
+
+.title-x::after {
+  content: "";
+  position: absolute;
+  margin-left: 11px;
+  bottom: 9px;
+  transform: translate(0, -50%);
+  height: 9px;
+  width: 7px;
+  background-color: #e7b14e;
+}
+
+.slide-bg-1 {
+  min-height: 100vh;
+}
+
+.bg-position {
+  background-position: top center;
+}
+
+.scroll-top:hover {
+  background-color: #e7b14e;
+}
+
+.intro11-slider-wrap .swiper-button-prev i:hover, .intro11-slider-wrap .swiper-button-next i:hover {
+  color: #e7b14e;
+}
